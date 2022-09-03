@@ -1,18 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 import controller.SpaceFlight;
 import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
-/**
- *
- * @author USER
- */
-public class FlightTest {
+
+public class SpaceFlightTest {
     
     SpaceFlight f;
    @Before
@@ -94,13 +86,13 @@ public class FlightTest {
       assertEquals(null,f.getDepTime());
    }
    @Test
-   public void testgetFlightNumber(){
-       assertEquals(null,f.getFlightNumber());
+   public void testgetSpaceFlightNumber(){
+       assertEquals(null,f.getSpaceFlightNumber());
    }
    @Test
-   public void testsetFlightNumber(){
-       f.setFlightNumber("A004");
-       assertEquals("A004",f.getFlightNumber());
+   public void testsetSpaceFlightNumber(){
+       f.setSpaceFlightNumber("A004");
+       assertEquals("A004",f.getSpaceFlightNumber());
    }
    @Test
    public void testgetSource(){

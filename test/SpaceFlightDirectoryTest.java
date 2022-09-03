@@ -1,18 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 import model.SpaceFlightDirectory;
 import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-/**
- *
- * @author USER
- */
-public class FlightDirectoryTest {
+public class SpaceFlightDirectoryTest {
     
     SpaceFlightDirectory f1;
    @Before
@@ -20,23 +12,23 @@ public class FlightDirectoryTest {
        f1 = new SpaceFlightDirectory();
    }
     @Test
-    public void testgetFlights(){
+    public void testgetSpaceFlights(){
       
-        assertEquals(null,f1.getFlights());
+        assertEquals(null,f1.getSpaceFlights());
     }
     @Test
-    public void testsetFlights(){
-        f1.setFlights(null);
-        assertEquals(null,f1.getFlights());
+    public void testsetSpaceFlights(){
+        f1.setSpaceFlights(null);
+        assertEquals(null,f1.getSpaceFlights());
     }
     @Test
-    public void testgetAirDir(){
-       assertEquals(null,f1.getAirDir()); 
+    public void testgetSpaceDir(){
+       assertEquals(null,f1.getSpaceDir()); 
     }
     @Test
-    public void testsetAirDir(){
-        f1.setAirDir(null);
-        assertEquals(null,f1.getAirDir());
+    public void testsetSpaceDir(){
+        f1.setSpaceDir(null);
+        assertEquals(null,f1.getSpaceDir());
         
         
     }

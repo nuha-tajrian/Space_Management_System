@@ -1,18 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 import controller.Customer;
 import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-/**
- *
- * @author USER
- */
 public class CustomerTest {
     
     Customer c;
@@ -30,14 +21,14 @@ public class CustomerTest {
       assertEquals("Booked",c.getSeatBooked());
   }
   @Test
-  public void testgetFlightBooked(){
-      assertEquals(null,c.getFlightBooked());
+  public void testgetSpaceFlightBooked(){
+      assertEquals(null,c.getSpaceFlightBooked());
       
   }
   @Test
-  public void testsetFlightBooked(){
-      c.setFlightBooked(null);
-      assertEquals(null,c.getFlightBooked());
+  public void testsetSpaceFlightBooked(){
+      c.setSpaceFlightBooked(null);
+      assertEquals(null,c.getSpaceFlightBooked());
       
   }
   @Test
